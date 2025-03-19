@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "auk_t1",
+	"version": "${version}",
+	"name": "AUK Test 1",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"AppleSmith"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/auk_t1/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.applesmith.auk_t1.AUKTest1"
+		],
+		"fabric-datagen": [
+			"net.applesmith.auk_t1.AUKTest1DataGenerator"
+		],
+		"client": [
+			"net.applesmith.auk_t1.AUK_T1ModClient"
+		]
+	},
+	"mixins": [
+		"auk_t1.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
