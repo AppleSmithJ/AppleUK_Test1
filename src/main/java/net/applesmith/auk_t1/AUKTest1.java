@@ -1,5 +1,7 @@
 package net.applesmith.auk_t1;
 
+import net.applesmith.auk_t1.item.ModItemGroups;
+import net.applesmith.auk_t1.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -13,6 +15,9 @@ public class AUKTest1 implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-		LOGGER.info("For Testing Purposes, Of Course");
+		ModItemGroups.registerItemGroups();
+
+		ModItems.registerModItems();
+
 	}
 }
