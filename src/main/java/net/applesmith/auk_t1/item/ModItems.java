@@ -13,6 +13,7 @@ public class ModItems {
 
 public static final Item GOLD_P_ITEM = registerItem("gold_p_item", new Item(new Item.Settings()));
 public static final Item SILVER_P_ITEM = registerItem("silver_p_item", new Item(new Item.Settings()));
+public static final Item FUNKLE_DREW = registerItem("funkle_drew", new Item(new Item.Settings()));
 
     private static Item registerItem (String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(AUKTest1.MOD_ID, name), item);

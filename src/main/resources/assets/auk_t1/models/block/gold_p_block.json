@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "up": "minecraft:block/gold_block",
+    "down": "minecraft:block/gold_block",
+    "north": "auk_t1:block/gold_p_block",
+    "south": "auk_t1:block/gold_p_block",
+    "east": "auk_t1:block/gold_p_block",
+    "west": "auk_t1:block/gold_p_block"
+  }
+}

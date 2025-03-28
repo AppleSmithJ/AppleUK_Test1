@@ -1,6 +1,7 @@
 package net.applesmith.auk_t1.item;
 
 import net.applesmith.auk_t1.AUKTest1;
+import net.applesmith.auk_t1.block.ModBlocks;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -17,6 +18,9 @@ public class ModItemGroups {
                     .entries((displayContext, entries) -> {
                         entries.add(ModItems.GOLD_P_ITEM);
                         entries.add(ModItems.SILVER_P_ITEM);
+                        entries.add(ModItems.FUNKLE_DREW);
+                        entries.add(ModBlocks.GOLD_P_BLOCK);
+                        entries.add(ModBlocks.SILVER_P_BLOCK);
 
 
                     }).build());

@@ -1,5 +1,6 @@
 package net.applesmith.auk_t1;
 
+import net.applesmith.auk_t1.block.ModBlocks;
 import net.applesmith.auk_t1.item.ModItemGroups;
 import net.applesmith.auk_t1.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -15,8 +16,8 @@ public class AUKTest1 implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
+		ModBlocks.registerModBlocks();
 		ModItemGroups.registerItemGroups();
-
 		ModItems.registerModItems();
 
 	}

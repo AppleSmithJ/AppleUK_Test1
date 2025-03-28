@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "up": "auk_t1:block/silver_block",
+    "down": "auk_t1:block/silver_block",
+    "north": "auk_t1:block/silver_p_block",
+    "south": "auk_t1:block/silver_p_block",
+    "east": "auk_t1:block/silver_p_block",
+    "west": "auk_t1:block/silver_p_block"
+  }
+}
