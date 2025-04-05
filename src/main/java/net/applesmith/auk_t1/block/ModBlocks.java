@@ -22,6 +22,11 @@ public class ModBlocks {
                     .sounds(BlockSoundGroup.STONE)
                     .strength(0.25f)));
 
+    public static final Block TEST_BLOCK_01 = registerBlock("test_block_01",
+            new Block(AbstractBlock.Settings.create()
+                    .sounds(BlockSoundGroup.TRIAL_SPAWNER)
+                    .strength(0.25f)));
+
 
     private  static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
