@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GOLD_P_BLOCK);
                         entries.add(ModBlocks.SILVER_P_BLOCK);
                         entries.add(ModBlocks.TEST_BLOCK_01);
+                        entries.add(ModItems.CHAINSAW);
 
 
                     }).build());

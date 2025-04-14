@@ -12,7 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
-    public static final Block GOLD_P_BLOCK = registerBlock("gold_p_block",
+    public static final Block GOLD_P_BLOCK = registerBlock("gold_p_block.json",
             new Block(AbstractBlock.Settings.create()
                     .sounds(BlockSoundGroup.STONE)
                     .strength(0.4f)));

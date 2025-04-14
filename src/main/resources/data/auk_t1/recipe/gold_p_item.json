@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "auk_t1:gold_p_block"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "id": "auk_t1:gold_p_item"
+  }
+}
